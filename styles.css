@@ -1,4 +1,5 @@
 /* Add your CSS to this file */
+
 body {
     margin: 0;
     font-size: 16px;
@@ -8,4 +9,161 @@ body {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    margin: 0 10px;
+    font-size: 16px;
+} 
+
+header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+header ul li {
+    margin: 0 10px;
+}
+
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.container h2 {
+    margin: 0;
+}
+
+
+.overview-hero {
+    display: flex;
+    align-items: center;
+    background: #f0f0f0; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+}
+
+.overview-hero-image img {
+    float: left;
+    max-width: 20%; 
+    margin-right: 20px; 
+}
+
+
+.overview-hero-text {
+    flex: 1; 
+}
+
+.overview-hero-text h2 {
+    margin: 0; 
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.learn-about h2{
+    color: green;
+}
+
+.learn-about h3{
+    color: green;
+}
+
+
+.card {
+    border: 1px solid #cbcecb;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    display:inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.card-body {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 150px);
+    box-sizing: border-box;
+}
+
+.testing{
+    display: flex;
+    align-items: center;
+    background: #31364e; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+
+.testing h2{
+    color:#f0f0f0
+}
+
+.testing p{
+    margin-right: 475px;
+    text-align: left;
+    color:#f0f0f0;
+}
+
+
+.cta {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.cta .btn {
+    margin: 0;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+article img {
+    max-width: 20%;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+
+.newsletter {
+    text-align: center;
+}
+
+form .form-group {
+    display: inline-block;
+    margin-right: 10px;
 }
